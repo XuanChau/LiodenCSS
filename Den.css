@@ -203,7 +203,7 @@ h3 {
 /* PANEL BACKGROUND COLOR */
 .table {
 	background: rgba(116, 76, 64, 0.6);
-	border: none !important;
+	border: 1px solid black !important;
 	border-collapse: separate;
 	border-radius: 5px;
 }
@@ -213,18 +213,30 @@ h3 {
 .top,
 .bottom,
 th {
-	background: rgba(174, 135, 100, 0.6) !important;
-	color: #000000 !important;
+	background: rgb(84 63 63) !important;
 	border-radius: 5px;
+}
+
+.top {
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
+}
+
+.bottom {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.top a, .bottom a, .table th a {
+	color: #e3c1a4 !important;
 }
 
 
 /* Block of color where "Territory Description, Player Name, Avatar URL" etc. are */
 
 .table .left {
-	background: rgba(66, 50, 52, 0.6)
+	background: rgb(100 78 72);
+	color: white;
 }
 
 /* Affects the color behind your territory description, player name, etc. */
