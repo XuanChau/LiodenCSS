@@ -210,21 +210,9 @@ h3 {
 
 
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
-.top,
-.bottom,
-th {
+.top, .bottom, th {
 	background: rgb(84 63 63) !important;
-	border-radius: 5px;
-}
-
-.top {
-	border-bottom-left-radius: 0;
-	border-bottom-right-radius: 0;
-}
-
-.bottom {
-	border-top-left-radius: 0;
-	border-top-right-radius: 0;
+	color: #d7ccb8 !important;
 }
 
 .top a, .bottom a, .table th a {
@@ -236,7 +224,7 @@ th {
 
 .table .left {
 	background: rgb(100 78 72);
-	color: white;
+	color: #d7ccb8;
 }
 
 /* Affects the color behind your territory description, player name, etc. */
@@ -258,7 +246,7 @@ textarea {
 
 .inner-table .left {
 	background: rgb(84 63 63) !important;
-    color: white !important;  /**/
+    color: #d7ccb8 !important;  /**/
     border-radius: 0 !important;  /**/ 
     border: 1px solid black;  /**/
 }
@@ -268,7 +256,7 @@ textarea {
 
 .inner-table .right {
 	background: rgb(100 78 72);
-    color: white !important;  /**/
+    color: #d7ccb8 !important;  /**/
     border-radius: 0 !important;  /**/
     border: 1px solid black;  /**/
     border-left: none;  /**/
@@ -282,9 +270,16 @@ textarea {
 }
 
 
-/* IGNORE */
+/* For odd rows in tables (important in traditional view) */
 .right_odd {
 	background: none !important;
+}
+
+
+/* Cooldown badge */
+.badge {
+	padding: 3px 5px !important;
+	border-radius: 0 !important;
 }
 
 
@@ -323,8 +318,7 @@ textarea {
 
 /* LINKS & LINK HOVER COLOR */
 
-a:link,
-a:visited {
+a {
 	color: #000000 !important;
 }
 
