@@ -41,7 +41,7 @@ body {
 }
 
 .navbar {
-	background: rgba(116, 76, 64, 0.6);
+	background: rgb(153 121 101);
 	border-bottom: none;
 	font-family: 'Source Serif Pro', serif;
 	color: #000000;
@@ -78,7 +78,7 @@ body {
 /* BREADCRUMB (Home / Den) */
 
 .breadcrumb {
-	background: rgba(66, 50, 52, 0.6);
+	background: rgb(123 104 94);
 }
 
 .breadcrumb .active {
@@ -174,9 +174,15 @@ button#label_currentChannel {
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-	color: #7b695d;
+/* 	color: #7b695d;
 	font-size: 72px;
-	text-align: center;
+	text-align: center; */
+	color: #36342e !important;
+	font-size: 58px;
+	text-align: center !important;
+	text-shadow: 2px 1px #00000078 !important
+	text-transform: uppercase !important;
+	font-family: 'Cinzel Decorative', cursive;
 }
 
 
@@ -212,7 +218,7 @@ h3 {
 /* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
 .top, .bottom, th {
 	background: rgb(84 63 63) !important;
-	color: #d7ccb8 !important;
+	color: #ece4d5 !important;
 }
 
 .top a, .bottom a, .table th a {
@@ -224,21 +230,33 @@ h3 {
 
 .table .left {
 	background: rgb(100 78 72);
-	color: #d7ccb8;
+	color: #ece4d5;
 }
 
 /* Affects the color behind your territory description, player name, etc. */
 
-input,
-select,
-textarea {
-	background: rgba(66, 50, 52, 0.6) !important;
-	border: none !important;
+input, select, textarea {
+	background: rgb(84 63 63) !important;
+	border: #aa8e7d !important;
 	border-color: black;
 	border-radius: 5px;
 	box-shadow: none !important;
-	color: black !important;
+	color: white !important;
 	text-shadow: none !important;
+}
+
+
+/* Comment box and inputs */
+
+#commentBox {
+	border: 1px solid #543f3f !important;
+}
+#comment {
+	padding-left: 15px;
+	background: #644e48 !important;
+}
+#postComment, #comment {
+    	height: 30px;
 }
 
 
@@ -246,7 +264,7 @@ textarea {
 
 .inner-table .left {
 	background: rgb(84 63 63) !important;
-    color: #d7ccb8 !important;  /**/
+    color: #ece4d5 !important;  /**/
     border-radius: 0 !important;  /**/ 
     border: 1px solid black;  /**/
 }
@@ -256,7 +274,7 @@ textarea {
 
 .inner-table .right {
 	background: rgb(100 78 72);
-    color: #d7ccb8 !important;  /**/
+    color: #ece4d5 !important;  /**/
     border-radius: 0 !important;  /**/
     border: 1px solid black;  /**/
     border-left: none;  /**/
