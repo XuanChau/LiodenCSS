@@ -114,7 +114,7 @@ body {
 /* ENERGY BARS, ACHIEVEMENTS, & BOOKMARKS */
 
 .panel {
-	background: rgba(116, 76, 64, 0.6) !important;
+	background: rgb(153 121 100) !important;
 	box-shadow: none !important;
 	border: none !important;
 	color: #000000 !important;
@@ -305,12 +305,12 @@ input, select, textarea {
 /* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
 
 .item-header {
-	background: rgba(66, 50, 52, 0.6) !important;
+	background: rgb(84 63 63) !important;
 	color: #000000  !important;
 }
 
 .item {
-	background: rgba(66, 50, 52, 0.6) !important;
+	background: rgb(100 78 72) !important;
 	border: none !important;
 }
 
@@ -332,6 +332,10 @@ input, select, textarea {
 	background: rgb(174 135 100);
 	border: 1px solid black !important;
 	padding: 0 0 5px 0 !important;
+}
+
+.cave-grid:hover, .mound-grid:hover {
+	color: #5c2121 !important;
 }
 
 
@@ -474,7 +478,8 @@ table#player img {
 /* LIODEN LOGO REPLACER */
 
 div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
-	content: url('https://zupimages.net/up/20/32/p04f.png');
+	content: url('https://static.lioden.com/images/beetles/deltadimidiatipenne/male/left/black.png');
+	width: 125px;
 }
 
 
@@ -504,9 +509,9 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* LION CAVE IMAGES */
 
-.col-md-4.col-xs-6.center {
+/* .col-md-4.col-xs-6.center {
     width: 33.3% !important;
-}
+} */
 
 a[href$="351249"]>div.cave-grid>img, a[href$="348607"]>div.cave-grid>img, a[href$="343146"]>div.cave-grid>img {
 	width: 258px !important;
