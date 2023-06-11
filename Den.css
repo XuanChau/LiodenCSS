@@ -10,6 +10,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Raleway:wght@300&display=swap');
 
+
+
 /* BACKGROUND */
 
 body {
@@ -499,7 +501,9 @@ a[href$="CAVE ID HERE"]>div.cave-grid>img {
 /* ABOUT ME box (id is "about-container") */
 
 #about-container {
-	
+	background: #aaa;
+	border: 1px solid black;
+	padding: 15px 25px;
 }
 
 /* #about-container {
