@@ -92,23 +92,21 @@ body {
 /* ALERTS (ie. "Your lionesses have returned from hunting!") */
 
 .alert {
-	background: rgba(205, 237, 203, 0.6);
+	background: rgb(206 217 184);
 	border: none;
 	color: #000000;
 }
 
-.alert-warning,
-.alert-danger {
-	background: rgba(194, 120, 120, 0.6);
+.alert-warning, .alert-danger {
+	background: rgb(199 147 134);
 	color: #000000;
 }
 
 
 /* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
 
-.feature,
-div.left {
-	background: rgba(152, 100, 64, 0.6);
+.feature, div.left {
+	background: rgb(174 135 100);
 	border: none;
 }
 
@@ -211,7 +209,7 @@ h3 {
 
 /* PANEL BACKGROUND COLOR */
 .table {
-	background: rgba(116, 76, 64, 0.6);
+	background: rgb(153 121 100);
 	border: 1px solid black !important;
 	border-collapse: separate;
 	border-radius: 5px;
@@ -330,10 +328,11 @@ input, select, textarea {
 
 /* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", etc. and cave/mound names */
 
-.cave-grid,
-.mound-grid {
-	background: rgba(152, 100, 64, 0.6);
-	border: none !important;
+.cave-grid, .mound-grid {
+	background: rgb(174 135 100);
+	border: 1px solid black !important;
+	border-radius: 0 !important;
+	padding: 0 0 5px 0 !important;
 }
 
 
@@ -491,10 +490,7 @@ a[href$="CAVE ID HERE"]>div.cave-grid>img {
 /* MOUNDS */
 
 .mound-grid img {
-	background: #997964;
-	padding: 15px 25px;
-	max-width: 700px;
-	border: 1px solid black;
+	width: 100%;
 }
 
 
@@ -506,15 +502,12 @@ a[href$="CAVE ID HERE"]>div.cave-grid>img {
 	padding: 15px 25px;
 }
 
-/* #about-container {
-	 background: none;
-	 height: 56px;
-	 padding: 0px;
-	 display: flex;
-	 justify-content: center;
-	 transition: 2s;
+
+/* LION CAVE IMAGES */
+
+a[href$="351249"]>div.cave-grid>img {
+    content: url(https://static.lioden.com/images/dynamic/backgrounds/LukangaSwampBG.png)!important;
+    width: 258px !important;
+    height: auto !important;
 }
-#about-container:hover {
-	height: 375px;
-} */
 
