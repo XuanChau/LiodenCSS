@@ -505,7 +505,7 @@ a[href$="CAVE ID HERE"]>div.cave-grid>img {
 
 /* LION CAVE IMAGES */
 
-a[href$="351249"]>div.cave-grid>img, a[href$="351249"]>div.cave-grid>img, a[href$="351249"]>div.cave-grid>img {
+a[href$="351249"]>div.cave-grid>img, a[href$="348607"]>div.cave-grid>img, a[href$="343146"]>div.cave-grid>img {
 	width: 258px !important;
 	height: 125px !important;
 	object-fit: cover;
@@ -516,11 +516,11 @@ a[href$="351249"]>div.cave-grid>img {
     content: url(https://static.lioden.com/images/dynamic/backgrounds/RE_bioko_island.png)!important;
 }
 
-a[href$="351249"]>div.cave-grid>img {
+a[href$="348607"]>div.cave-grid>img {
     content: url(https://static.lioden.com/images/dynamic/backgrounds/dindefelo.png)!important;
 }
 
-a[href$="351249"]>div.cave-grid>img {
+a[href$="343146"]>div.cave-grid>img {
     content: url(https://static.lioden.com/images/dynamic/backgrounds/harennaforest.png)!important;
 }
 
