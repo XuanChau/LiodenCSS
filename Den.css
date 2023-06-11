@@ -35,7 +35,7 @@ body {
 /* TOPBAR ("Welcome back, ___"), NAVBAR (Den/Crossroads/Etc.) */
 
 .topbar {
-	background: rgba(66, 50, 52, 0.6);
+	background: rgb(153 121 101);
 	border: none;
 	border-top: none;
 	color: #000000;
