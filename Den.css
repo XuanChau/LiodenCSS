@@ -492,6 +492,12 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 	padding: 15px 25px;
 }
 
+/* Ensures about me box shows on small screens */
+@media (max-width: 767px)
+.hidden-xs {
+    display: block !important;
+}
+
 
 /* LION CAVE IMAGES */
 
