@@ -501,7 +501,7 @@ a[href$="CAVE ID HERE"]>div.cave-grid>img {
 /* ABOUT ME box (id is "about-container") */
 
 #about-container {
-	background: #aaa;
+	background: rgb(153 121 101);
 	border: 1px solid black;
 	padding: 15px 25px;
 }
