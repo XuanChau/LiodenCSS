@@ -505,9 +505,22 @@ a[href$="CAVE ID HERE"]>div.cave-grid>img {
 
 /* LION CAVE IMAGES */
 
+a>div.cave-grid>img {
+	width: 258px !important;
+	height: 125px !important;
+	object-fit: cover;
+}
+
+/* Target caves using their href tags */
 a[href$="351249"]>div.cave-grid>img {
-    content: url(https://static.lioden.com/images/dynamic/backgrounds/LukangaSwampBG.png)!important;
-    width: 258px !important;
-    height: auto !important;
+    content: url(https://static.lioden.com/images/dynamic/backgrounds/RE_bioko_island.png)!important;
+}
+
+a[href$="351249"]>div.cave-grid>img {
+    content: url(https://static.lioden.com/images/dynamic/backgrounds/dindefelo.png)!important;
+}
+
+a[href$="351249"]>div.cave-grid>img {
+    content: url(https://static.lioden.com/images/dynamic/backgrounds/harennaforest.png)!important;
 }
 
