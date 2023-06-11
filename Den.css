@@ -494,7 +494,7 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 /* Ensures about me box shows on small screens */
 @media (max-width: 767px)
-.hidden-xs {
+#fraProfileContent {
     display: block !important;
 }
 
