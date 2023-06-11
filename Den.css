@@ -482,6 +482,8 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 
 .mound-grid img {
 	width: 100%;
+    height: 80px;
+    object-fit: cover;
 }
 
 
@@ -493,13 +495,18 @@ div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
 }
 
 /* Ensures about me box shows on small screens */
-@media only screen and (max-width: 767px)
-.container.main .hidden-xs {
-    display: block !important;
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
 }
 
 
 /* LION CAVE IMAGES */
+
+.col-md-4.col-xs-6.center {
+    width: 33.3% !important;
+}
 
 a[href$="351249"]>div.cave-grid>img, a[href$="348607"]>div.cave-grid>img, a[href$="343146"]>div.cave-grid>img {
 	width: 258px !important;
