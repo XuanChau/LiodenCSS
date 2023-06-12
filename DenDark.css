@@ -1,0 +1,554 @@
+/*
+  Free to use CSS template by Katie (#106445).
+  Edited by Mydria (#177285)
+  This code may be altered, edited, or re-uploaded. 
+*/
+
+
+/* CSS color variables */
+:root {
+  --textDark: #36342e;
+  --white: #ffffff;
+}
+
+
+/* FONT (From Google Fonts) */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=Raleway:wght@300&display=swap');
+
+
+
+/* BACKGROUND */
+
+body {
+	background: url('https://images.pexels.com/photos/4823233/pexels-photo-4823233.jpeg') center center fixed;
+	background-size: 100%;
+	font-family: 'Source Serif Pro', serif;
+	color: #000000;
+}
+
+
+/* FEED ALL, PLAY ALL */
+
+.feature {
+	background: rgba(66, 50, 52, 0.6) !important;
+	color: #000000 !important;
+	border: none !important;
+	border-radius: 2px !important;
+}
+
+
+/* TOPBAR ("Welcome back, ___"), NAVBAR (Den/Crossroads/Etc.) */
+
+.topbar {
+	background: rgb(153 121 101);
+	border: none;
+	border-top: none;
+	color: #000000;
+	border-radius: 1px;
+	font-family: 'Source Serif Pro', serif;
+}
+
+.navbar {
+	background: rgb(153 121 101);
+	border-bottom: none;
+	font-family: 'Source Serif Pro', serif;
+	color: #000000;
+	border-radius: 1px;
+}
+
+.navbar li a {
+	color: #000000 !important;
+}
+
+/* NAVBAR HOVER COLOR */
+
+.navbar li a:hover {
+	background: rgba(116, 76, 64, 0.8) !important;
+}
+
+
+/* MAIN PANEL */
+
+/* RIGHT SIDE */
+.container.main {
+	background: rgba(208, 187, 155, 1);
+	border: none;
+	box-shadow: none;
+	border-radius: 1px;
+}
+
+/* LEFT SIDE */
+.col-md-9 {
+	background: none;
+}
+
+
+/* BREADCRUMB (Home / Den) */
+
+.breadcrumb {
+	background: rgb(123 104 94);
+}
+
+.breadcrumb .active {
+	color: #000000;
+}
+
+
+/* ALERTS (ie. "Your lionesses have returned from hunting!") */
+
+.alert {
+	background: rgb(206 217 184);
+	border: none;
+	color: #000000;
+}
+
+.alert-warning, .alert-danger {
+	background: rgb(199 147 134);
+	color: #000000;
+}
+
+
+/* "King Dynasty, Pride Dynasty, Achievements, Showcase" Panels */
+
+.feature, div.left {
+	background: rgb(174 135 100);
+	border: none;
+}
+
+
+/* ENERGY BARS, ACHIEVEMENTS, & BOOKMARKS */
+
+.panel {
+	background: rgb(153 121 100) !important;
+	box-shadow: none !important;
+	border: none !important;
+	color: #000000 !important;
+}
+
+/* ENERGY BAR BACKGROUND */
+.progress {
+	background: rgba(152, 100, 64, 0.6);
+	color: #000000 !important;
+}
+
+/* ENERGY BAR TEXT */
+.progress div {
+	color: #000000 !important;
+}
+
+/* ENERGY BAR COLOR */
+.progress-bar {
+	background: rgba(66, 50, 52, 0.6);
+	color: #000000 !important;
+}
+
+
+/* CHAT */
+
+.s-chat-message:nth-child(even) {
+	background: #b8a47b !important;
+	border: none !important;
+}
+
+.s-chat-message:nth-child(odd) {
+	background: #c7b58d !important;
+	border: none !important;
+}
+
+/* PINNED MESSAGE */
+.s-chat-message__pinned {
+	background: #7b695d !important;
+	color: #000000 !important;
+	border: none !important;
+}
+
+.s-chat-message_timestamp {
+	color: #000000 !important;
+}
+
+div#chatMessageContainer {
+	border: none !important;
+}
+
+/* CURRENT CHANNEL TAB (MAIN, SALES, ETC.) */
+button#label_currentChannel {
+	border: none !important;
+	background: #7b695d !important;
+}
+
+
+/* BIGGEST HEADER ("___"'s DEN) */
+
+h1 {
+/* 	color: #36342e !important; */
+	color: var(--textDark) !important;
+	font-size: 58px;
+	text-align: center !important;
+	text-shadow: 2px 1px #00000078 !important;
+	text-transform: uppercase !important;
+	font-family: 'Cinzel Decorative', cursive;
+	font-weight: bold;
+}
+
+
+/* MEDIUM HEADER */
+
+h2 {
+	color: #000000;
+	font-size: 24px;
+	text-align: center;
+}
+
+
+/* SMALL HEADER */
+
+h3 {
+	color: #000000 !important;
+	font-size: 14px !important
+}
+
+
+/* LION INFO TABLE (Level, Stats, Branch, Territory Count, Etc.) */
+
+
+/* PANEL BACKGROUND COLOR */
+.table {
+	background: rgb(153 121 100);
+	border: 1px solid black !important;
+	border-collapse: separate;
+	border-radius: 5px;
+}
+
+
+/* HEADERS COLOR (King Name + Title, "There are _ lions with mutations in _'s pride.") */
+.top, .bottom, th {
+	background: rgb(84 63 63) !important;
+	color: #ece4d5 !important;
+}
+
+.top a, .bottom a, .table th a {
+	color: #e3c1a4 !important;
+}
+
+
+/* Block of color where "Territory Description, Player Name, Avatar URL" etc. are */
+
+.table .left {
+	background: rgb(100 78 72);
+	color: #ece4d5;
+}
+
+/* Affects the color behind your territory description, player name, etc. */
+
+input, select, textarea {
+	background: rgb(84 63 63) !important;
+	border: #aa8e7d !important;
+	border-color: black;
+	border-radius: 5px;
+	box-shadow: none !important;
+	color: white !important;
+	text-shadow: none !important;
+}
+
+
+/* Comment box and inputs */
+
+#commentBox {
+	border: 1px solid #543f3f !important;
+}
+#comment {
+	padding-left: 15px;
+	background: #644e48 !important;
+}
+#postComment, #comment {
+    	height: 30px;
+}
+
+
+/* Color behind "Level, Stats, Branch, Territory" etc. */
+
+.inner-table .left {
+	background: rgb(84 63 63) !important;
+    color: #ece4d5 !important;  /**/
+    border-radius: 0 !important;  /**/ 
+    border: 1px solid black;  /**/
+}
+
+
+/* Color behind the number of all of the things above */
+
+.inner-table .right {
+	background: rgb(100 78 72);
+    color: #ece4d5 !important;  /**/
+    border-radius: 0 !important;  /**/
+    border: 1px solid black;  /**/
+    border-left: none;  /**/
+}
+
+
+/* Color of links inside inner table lables (ex. link to branch) */
+
+.inner-table .right a {
+    color: #e4c2a4 !important;
+}
+
+
+/* For odd rows in tables (important in traditional view) */
+.right_odd {
+	background: none !important;
+}
+
+
+/* Cooldown badge */
+.badge {
+	padding: 3px 5px !important;
+	border-radius: 0 !important;
+}
+
+
+/* ACCOUNT OPTIONS PANELS  (Friend Requests Toggles, etc.) */
+
+.item-header {
+	background: rgb(84 63 63) !important;
+	color: #000000  !important;
+}
+
+.item {
+	background: rgb(100 78 72) !important;
+	border: none !important;
+}
+
+
+/* BEETLE MOUND TOPBAR (Where it says Beetle Training Grounds, Beetle Battling, etc.) */
+
+.sub_menu {
+	background: rgba(116, 76, 64, 0.6) !important;
+}
+
+.sub_menu_item_selected {
+	background: rgba(116, 76, 64, 0.6) !important;
+}
+
+
+/* Affects the color behind "_ Unsorted", "_ Pregnant Lionesses", etc. and cave/mound names */
+
+.cave-grid, .mound-grid {
+	background: rgb(174 135 100);
+	border: 1px solid black !important;
+	padding: 0 0 5px 0 !important;
+}
+
+.cave-grid:hover, .mound-grid:hover {
+	color: #5c2121 !important;
+}
+
+
+/* LINKS & LINK HOVER COLOR */
+
+a {
+	color: #000000 !important;
+}
+
+a:hover {
+	color: #000000 !important;
+}
+
+
+/* BOXES (Copy paste to add more or less) */
+
+.boxcontainer {
+	background: none;
+	height: auto;
+	padding: 0px;
+	display: flex;
+	justify-content: center
+}
+
+.Box1 {
+	float: left;
+	background: rgba(66, 50, 52, 0.6);
+	color: #000000 ;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	margin: 5px;
+	height: 300px;
+	width: 350px;
+	overflow: auto;
+	margin-bottom: 25px;
+	transition: 1s /* HOW FAST HOVER BOX EXPANDS TO FULL SIZE */7
+}
+
+/* HOVER BOX (SIZE WHEN HOVERING OVER) */
+.Box1:hover {
+	overflow-y: auto;
+}
+
+.Box2 {
+	float: left;
+	background: rgba(66, 50, 52, 0.6);
+	color: #000000 ;
+	padding: 15px;
+	border: none;
+	border-radius: 5px;
+	margin: 5px;
+	height: 300px;
+	width: 350px;
+	overflow: hidden;
+	margin-bottom: 25px;
+	transition: 1s /* HOW FAST HOVER BOX EXPANDS TO FULL SIZE */
+}
+
+/* HOVER BOX (SIZE WHEN HOVERING OVER) */
+.Box2:hover {
+	overflow-y: auto;
+}
+
+.hoverbox3:hover {
+	height: 250px;
+	width: 800px;
+}
+
+
+/* SCROLL BAR */
+
+::-webkit-scrollbar {
+	width: 7px;
+	height: 0px;
+}
+
+
+/* SCROLL BAR BACKGROUND */
+
+::-webkit-scrollbar-track {
+	background: #423234;
+}
+
+
+/* SCROLL BAR "THUMB" */
+
+::-webkit-scrollbar-thumb {
+	background: #ae8764;
+	border-radius: 4px;
+}
+
+
+/* LION AND USER AVATAR OPACITY */
+
+div#lion_image {
+	opacity: 1;
+}
+
+table#player img {
+	opacity: 1;
+}
+
+.credit {
+	background: #997964;
+	color: #3d4b54;
+	padding: 1em;
+	border: none;
+	position: fixed;
+	text-align: center;
+	border-radius: 5px;
+	left: 0px;
+	bottom: 0px;
+	width: 150px;
+	height: 65px;
+	overflow: visible;
+}
+
+/* CIRCULAR LION AND USER AVATAR */
+
+div#lion_image {
+	border-radius: 50% !important;
+    border-top-right-radius: 0% !important;  /**/
+    border-bottom-left-radius: 0% !important;  /**/
+	overflow: hidden;
+	margin-top: 19px;
+	margin-left: 6px;
+	border: thick double #D0BB9B;
+	border-width: 3px;
+}
+
+table#player img {
+	border-radius: 50% !important;
+	overflow: hidden;
+	border: thick double #D0BB9B;
+	border-width: 3px;
+}
+
+
+/* LIODEN LOGO REPLACER */
+
+div.container.main>div:nth-child(1)>nav>div.navbar-header>a>img {
+	content: url('https://static.lioden.com/images/beetles/deltadimidiatipenne/male/left/black.png');
+	width: 125px;
+}
+
+
+/* MOUNDS */
+
+.mound-grid img {
+	width: 100%;
+    height: 80px;
+    object-fit: cover;
+}
+
+
+/* ABOUT ME box */
+.about-container {
+	background: rgb(153 121 101);
+	border: 1px solid black;
+	padding: 15px 25px;
+}
+
+/* Ensures about me box shows on small screens */
+@media only screen and (max-width: 767px) {
+        .container.main .hidden-xs {
+            display: block !important;
+        }
+}
+
+
+/* LION CAVE IMAGES */
+
+/* .col-md-4.col-xs-6.center {
+    width: 33.3% !important;
+} */
+
+a[href$="351249"]>div.cave-grid>img, a[href$="348607"]>div.cave-grid>img, a[href$="343146"]>div.cave-grid>img {
+	width: 258px !important;
+	height: 125px !important;
+	object-fit: cover;
+}
+
+/* Target caves using their href tags */
+a[href$="351249"]>div.cave-grid>img {
+    content: url(https://static.lioden.com/images/dynamic/backgrounds/RE_bioko_island.png)!important;
+}
+
+a[href$="348607"]>div.cave-grid>img {
+    content: url(https://static.lioden.com/images/dynamic/backgrounds/dindefelo.png)!important;
+}
+
+a[href$="343146"]>div.cave-grid>img {
+    content: url(https://static.lioden.com/images/dynamic/backgrounds/harennaforest.png)!important;
+}
+
+/* Desaturates and resaturates cave images on hover */
+a>div.cave-grid>img, .mound-grid>img {
+    filter:         url(~"data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(50%);
+    -moz-filter:    grayscale(50%);
+    -ms-filter:     grayscale(50%);
+    -o-filter:      grayscale(50%);
+    filter: gray; 
+}
+
+a>div.cave-grid>img:hover {
+    filter: none;
+    cursor: pointer;
+}
