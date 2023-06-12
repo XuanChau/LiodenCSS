@@ -5,6 +5,13 @@
 */
 
 
+/* CSS color variables */
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+
 /* FONT (From Google Fonts) */
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap');
@@ -175,15 +182,14 @@ button#label_currentChannel {
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-/* 	color: #7b695d;
-	font-size: 72px;
-	text-align: center; */
-	color: #36342e !important;
+/* 	color: #36342e !important; */
+	color: var(--blue) !imporant;
 	font-size: 58px;
 	text-align: center !important;
-	text-shadow: 2px 1px #00000078 !important
+	text-shadow: 2px 1px #00000078 !important;
 	text-transform: uppercase !important;
 	font-family: 'Cinzel Decorative', cursive;
+	font-weight: bold;
 }
 
 
