@@ -193,7 +193,6 @@ button#label_currentChannel {
 /* BIGGEST HEADER ("___"'s DEN) */
 
 h1 {
-/* 	color: #36342e !important; */
 	color: var(--textDark) !important;
 	font-size: 58px;
 	text-align: center !important;
